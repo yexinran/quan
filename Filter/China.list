@@ -1,73 +1,458 @@
 # China Area Network
-DOMAIN-SUFFIX,flyert.com,DIRECT
-DOMAIN-SUFFIX,gandi.net,DIRECT
-DOMAIN-SUFFIX,snapdrop.net,DIRECT
-DOMAIN,download.jetbrains.com,DIRECT
-DOMAIN,origin-a.akamaihd.ne,DIRECT
-# ---(Microsoft)---
-# > Outlook
-DOMAIN,outlook.office365.com,DIRECT
-DOMAIN,smtp-mail.outlook.com,DIRECT
-DOMAIN,smtp.office365.com,DIRECT
-# > Windows Server Update Services
-DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
-DOMAIN-SUFFIX,update.microsoft.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.microsoft.com,DIRECT
-DOMAIN,download.microsoft.com,DIRECT
-DOMAIN,wustat.windows.com,DIRECT
-DOMAIN,ntservicepack.microsoft.com,DIRECT
-# ------
-# > PayPal
-DOMAIN-SUFFIX,paypal.com,DIRECT
-DOMAIN-SUFFIX,paypal.me,DIRECT
-DOMAIN-SUFFIX,paypal-mktg.com,DIRECT
-DOMAIN-SUFFIX,paypalobjects.com,DIRECT
+# > 12306
+HOST-SUFFIX,12306.cn,DIRECT
+# > 360
+DOMAIN-SUFFIX,qhres.com,DIRECT
+DOMAIN-SUFFIX,qhimg.com,DIRECT
+# > 36kr
+HOST-SUFFIX,36kr.com,36kr
+# > 51Job
+HOST-SUFFIX,51job.com,DIRECT
+# > YinHang
+HOST-SUFFIX,95599.cn,DIRECT
+HOST-SUFFIX,abchina.com,DIRECT
+HOST-SUFFIX,bscabank.com,DIRECT
+HOST-SUFFIX,boc.cn,DIRECT
+HOST-SUFFIX,bankcomm.com,DIRECT
+HOST-SUFFIX,ccb.com,DIRECT
+HOST-SUFFIX,cebbank.com,DIRECT
+HOST-SUFFIX,95508.com,DIRECT
+HOST-SUFFIX,cgbchina.cn,DIRECT
+HOST-SUFFIX,8008205555.cn,DIRECT
+HOST-SUFFIX,bbf.org.cn,DIRECT
+HOST-SUFFIX,icbc,DIRECT
+HOST-SUFFIX,95580.net,DIRECT
+HOST-SUFFIX,psbc.com,DIRECT
+# > AliPay
+HOST-SUFFIX,alipay,AliPay
+HOST-SUFFIX,alipay.com,DIRECT
+HOST-SUFFIX,alipay.net,DIRECT
+# > Alibaba
+USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
+HOST-SUFFIX,alibaba.com,DIRECT
+HOST-SUFFIX,alicdn.com,DIRECT
+HOST-SUFFIX,alikunlun.com,DIRECT
+HOST-SUFFIX,alipay.com,DIRECT
+HOST-SUFFIX,amap.com,DIRECT
+HOST-SUFFIX,autonavi.com,DIRECT
+HOST-SUFFIX,dingtalk.com,DIRECT
+HOST-SUFFIX,mxhichina.com,DIRECT
+HOST-SUFFIX,soku.com,DIRECT
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,tmall.hk,DIRECT
+HOST-SUFFIX,ykimg.com,DIRECT
+HOST-SUFFIX,youku.com,DIRECT
+HOST-SUFFIX,xiami.com,DIRECT
+HOST-SUFFIX,xiami.net,DIRECT
+# > Apple
+HOST-SUFFIX,aaplimg.com,DIRECT
+HOST-SUFFIX,apple.co,DIRECT
+HOST-SUFFIX,apple.com,DIRECT
+HOST-SUFFIX,apple-cloudkit.com,DIRECT
+HOST-SUFFIX,appstore.com,DIRECT
+HOST-SUFFIX,cdn-apple.com,DIRECT
+HOST-SUFFIX,crashlytics.com,DIRECT
+HOST-SUFFIX,icloud.com,DIRECT
+HOST-SUFFIX,icloud-content.com,DIRECT
+HOST-SUFFIX,me.com,DIRECT
+HOST-SUFFIX,mzstatic.com,DIRECT
+HOST,www-cdn.icloud.com.akadns.net,DIRECT
+# > BanBanJiaXiao
+DOMAIN-SUFFIX,chetailian.com,DIRECT
+# > Baidu
+DOMAIN-SUFFIX,baidu.com,DIRECT
+DOMAIN-SUFFIX,baidubcr.com,DIRECT
+DOMAIN-SUFFIX,bdstatic.com,DIRECT
+DOMAIN-SUFFIX,yunjiasu-cdn.net,DIRECT
+# > bilibili
+HOST-SUFFIX,acgvideo.com,DIRECT
+HOST-SUFFIX,biliapi.com,DIRECT
+HOST-SUFFIX,biliapi.net,DIRECT
+HOST-SUFFIX,bilibili.com,DIRECT
+HOST-SUFFIX,bilibili.tv,DIRECT
+HOST-SUFFIX,hdslb.com,DIRECT
+# > ByteDance
+HOST-SUFFIX,amemv.com,DIRECT
+HOST-SUFFIX,baike.com,DIRECT
+HOST-SUFFIX,bdgslb.com,DIRECT
+HOST-SUFFIX,bqtalk.com,DIRECT
+HOST-SUFFIX,byteac.com,DIRECT
+HOST-SUFFIX,bytecdn.com,DIRECT
+HOST-SUFFIX,bytedance.com,DIRECT
+HOST-SUFFIX,bytefcdn.com,DIRECT
+HOST-SUFFIX,douyin.com,DIRECT
+HOST-SUFFIX,douyincdn.com,DIRECT
+HOST-SUFFIX,faceu.com,DIRECT
+HOST-SUFFIX,faceu.mobi,DIRECT
+HOST-SUFFIX,feishu.cn,DIRECT
+HOST-SUFFIX,hotsoonapp.com,DIRECT
+HOST-SUFFIX,huoshan.com,DIRECT
+HOST-SUFFIX,feiliao.com,DIRECT
+HOST-SUFFIX,pstatp.com,DIRECT
+HOST-SUFFIX,snssdk.com,DIRECT
+HOST-SUFFIX,iesdouyin.com,DIRECT
+HOST-SUFFIX,toutiao.com,DIRECT
+IP-CIDR,114.246.10.65/32,DIRECT
+# > CCTV
+HOST-SUFFIX,cctv.com,DIRECT
+HOST-SUFFIX,cctvpic.com,DIRECT
+HOST-SUFFIX,livechina.com,DIRECT
+# > CAS
+HOST-SUFFIX,acas.ac.cn,DIRECT
+HOST-SUFFIX,agklab.cn,DIRECT
+# > CSDN
+HOST-SUFFIX,csdn.com,DIRECT
+HOST-SUFFIX,blog.csdn.net,DIRECT
+# > CaiNiao
+HOST-SUFFIX,cainiao-inc.com,DIRECT
+HOST-SUFFIX,cainiao.com,DIRECT
+HOST-SUFFIX,cainiaoyizhan.com,DIRECT
+HOST-SUFFIX,guoguo-app.com,DIRECT
+# > ChinaMobile
+HOST-SUFFIX,10086.cn,DIRECT
+HOST-SUFFIX,12530.com,DIRECT
+HOST-SUFFIX,10000.gd.cn,DIRECT
+HOST-SUFFIX,189.cn,DIRECT
+HOST-SUFFIX,10010.com,DIRECT
+HOST-SUFFIX,21cn.com,DIRECT
+# >DangDang
+HOST-SUFFIX,dangdang.com,DIRECT
+HOST-SUFFIX,ddimg.cn,DIRECT
+# > DiDi
+HOST-SUFFIX,didialift.com,DIRECT
+HOST-SUFFIX,didiglobal.com,DIRECT
+HOST-SUFFIX,didiapp.net.cn,DIRECT
+# >DingDing
+HOST-SUFFIX,ddurl.to,DIRECT
+HOST-SUFFIX,dg-work.cn,DIRECT
+HOST-SUFFIX,dingding.xin,DIRECT
+HOST-SUFFIX,dingtalk.com,DIRECT
+HOST-SUFFIX,dingtalk.net,DIRECT
+# >DouBan
+HOST-SUFFIX,douban.com,DIRECT
+HOST-SUFFIX,douban.fm,DIRECT
+HOST-SUFFIX,doubanio.com,DIRECT
+# >Eleme
+HOST-SUFFIX,ele.me,DIRECT
+HOST-SUFFIX,ele.to,DIRECT
+HOST-SUFFIX,eleme.cn,DIRECT
+# > FeiZhu
+HOST-SUFFIX,alitrip.com,DIRECT
+HOST-SUFFIX,asczwa.com,DIRECT
+HOST-SUFFIX,asczxcefsv.com,DIRECT
+HOST-SUFFIX,bcvbw.com,DIRECT
+HOST-SUFFIX,dfkhgj.com,DIRECT
+HOST-SUFFIX,edcdfg.com,DIRECT
+HOST-SUFFIX,ereuiib.com,DIRECT
+HOST-SUFFIX,fdfgdf.cn,DIRECT
+HOST-SUFFIX,feizhu.com,DIRECT
+HOST-SUFFIX,fliggy.com,DIRECT
+# > GaoDe
+HOST-SUFFIX,a-map.cn,DIRECT
+HOST-SUFFIX,a-map.co,DIRECT
+HOST-SUFFIX,a-map.link,DIRECT
+HOST-SUFFIX,amap.com,DIRECT
+HOST-SUFFIX,amapauto.com,DIRECT
+HOST-SUFFIX,anav.com,DIRECT
+HOST-SUFFIX,autonavi.com,DIRECT
+HOST-SUFFIX,gaode.com,DIRECT
+# > Huawei
+HOST-SUFFIX,huawei.com,DIRECT
+HOST-SUFFIX,huaweicloud.com,DIRECT
+# > Hupu
+HOST-SUFFIX,hoopchina.com,DIRECT
+HOST-SUFFIX,hupu.com,DIRECT
+# > HunanTV
+HOST-SUFFIX,hitv.com,DIRECT
+HOST-SUFFIX,mgtv.com,DIRECT
+# > iQiyi
+HOST-SUFFIX,iqiyi.com,DIRECT
+HOST-SUFFIX,iqiyipic.com,DIRECT
+HOST-SUFFIX,71.am.com,DIRECT
+# > jiKe
+HOST-SUFFIX,ingest.sentry.io,DIRECT
+HOST-SUFFIX,ruguoapp.com,DIRECT
+HOST-SUFFIX,jellow.site,DIRECT
+# > juejin
+HOST-SUFFIX,juejin.cn,DIRECT
+# > JianShu
+HOST-SUFFIX,jianshu.com,DIRECT
+# > JD
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,jdpay.com,DIRECT
+HOST-SUFFIX,360buyimg.com,DIRECT
+# > KuAn
+HOST-SUFFIX,coolapk.com,DIRECT
+HOST-SUFFIX,ctobsnssdk.com,DIRECT
+HOST-SUFFIX,umeng.com,DIRECT
+# > KugouKuwo
+HOST-SUFFIX,gouwo.com,DIRECT
+HOST-SUFFIX,kugou.com,DIRECT
+# > KuaiShou
+USER-AGENT,AcFun*,DIRECT
+# > Kingsoft
+HOST-SUFFIX,iciba.com,DIRECT
+HOST-SUFFIX,ksosoft.com,DIRECT
+# > LanZouYun
+HOST-SUFFIX,lanzou.com,DIRECT
+# > Meitu
+HOST-SUFFIX,meitu.com,DIRECT
+HOST-SUFFIX,meitudata.com,DIRECT
+HOST-SUFFIX,meitustat.com,DIRECT
+HOST-SUFFIX,meipai.com,DIRECT
+# > MeiTuan
+HOST-SUFFIX,meituan.com,DIRECT
+HOST-SUFFIX,maoyan.com,DIRECT
+# > Microsoft
+HOST-SUFFIX,microsoft.com,DIRECT
+HOST-SUFFIX,msecnd.net,DIRECT
+HOST-SUFFIX,office365.com,DIRECT
+HOST-SUFFIX,outlook.com,DIRECT
+HOST-SUFFIX,s-microsoft.com,DIRECT
+HOST-SUFFIX,visualstudio.com,DIRECT
+HOST-SUFFIX,windows.com,DIRECT
+HOST-SUFFIX,windowsupdate.com,DIRECT
+HOST,officecdn-microsoft-com.akamaized.net,DIRECT
+# > NetEase
+USER-AGENT,NeteaseMusic*,DIRECT
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
+HOST-SUFFIX,163.com,DIRECT
+HOST-SUFFIX,126.net,DIRECT
+HOST-SUFFIX,127.net,DIRECT
+HOST-SUFFIX,163yun.com,DIRECT
+HOST-SUFFIX,lofter.com,DIRECT
+HOST-SUFFIX,netease.com,DIRECT
+HOST-SUFFIX,ydstatic.com,DIRECT
+# > Pinduoduo
+HOST-SUFFIX,pddpic.com,DIRECT
+HOST-SUFFIX,pinduoduo.com,DIRECT
+# > ShanMu
+HOST-SUFFIX,jpush.cn,DIRECT
+HOST-SUFFIX,walmartmobile.cn,DIRECT
+# > Sina
+HOST-SUFFIX,sina.com,DIRECT
+HOST-SUFFIX,weibo.com,DIRECT
+# > Sohu
+HOST-SUFFIX,sohu.com,DIRECT
+HOST-SUFFIX,sohucs.com,DIRECT
+HOST-SUFFIX,sohu-inc.com,DIRECT
+HOST-SUFFIX,v-56.com,DIRECT
+# > Sogo
+HOST-SUFFIX,sogo.com,DIRECT
+HOST-SUFFIX,sogou.com,DIRECT
+HOST-SUFFIX,sogoucdn.com,DIRECT
 # > Steam
-DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
-DOMAIN,api.steampowered.com,DIRECT
-# > Tencent
-IP-CIDR,182.254.116.0/24,DIRECT
-IP-CIDR,203.205.238.0/23,DIRECT
-IP-CIDR,203.205.254.0/23,DIRECT
-# > IP Query
-DOMAIN,ip.istatmenus.app,DIRECT
-DOMAIN,sms.imagetasks.com,DIRECT
-# > Speed Test
-DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
-DOMAIN,speedtest.macpaw.com,DIRECT
-# > Private Tracker
-DOMAIN-SUFFIX,acg.rip,DIRECT
-DOMAIN-SUFFIX,animebytes.tv,DIRECT
-DOMAIN-SUFFIX,awesome-hd.me,DIRECT
-DOMAIN-SUFFIX,broadcasthe.net,DIRECT
-DOMAIN-SUFFIX,chdbits.co,DIRECT
-DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
-DOMAIN-SUFFIX,comicat.org,DIRECT
-DOMAIN-SUFFIX,empornium.me,DIRECT
-DOMAIN-SUFFIX,gazellegames.net,DIRECT
-DOMAIN-SUFFIX,hdbits.org,DIRECT
-DOMAIN-SUFFIX,hdchina.org,DIRECT
-DOMAIN-SUFFIX,hddolby.com,DIRECT
-DOMAIN-SUFFIX,hdhome.org,DIRECT
-DOMAIN-SUFFIX,hdsky.me,DIRECT
-DOMAIN-SUFFIX,icetorrent.org,DIRECT
-DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
-DOMAIN-SUFFIX,keepfrds.com,DIRECT
-DOMAIN-SUFFIX,madsrevolution.net,DIRECT
-DOMAIN-SUFFIX,morethan.tv,DIRECT
-DOMAIN-SUFFIX,m-team.cc,DIRECT
-DOMAIN-SUFFIX,myanonamouse.net,DIRECT
-DOMAIN-SUFFIX,nanyangpt.com,DIRECT
-DOMAIN-SUFFIX,ncore.cc,DIRECT
-DOMAIN-SUFFIX,open.cd,DIRECT
-DOMAIN-SUFFIX,ourbits.club,DIRECT
-DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
-DOMAIN-SUFFIX,privatehd.to,DIRECT
-DOMAIN-SUFFIX,pterclub.com,DIRECT
-DOMAIN-SUFFIX,redacted.ch,DIRECT
-DOMAIN-SUFFIX,springsunday.net,DIRECT
-DOMAIN-SUFFIX,tjupt.org,DIRECT
-DOMAIN-SUFFIX,totheglory.im,DIRECT
+HOST-SUFFIX,steampowered.com,DIRECT
+HOST-SUFFIX,steam-chat.com,DIRECT
+HOST-SUFFIX,steamgames.com,DIRECT
+HOST-SUFFIX,steamusercontent.com,DIRECT
+HOST-SUFFIX,steamcontent.com,DIRECT
+HOST-SUFFIX,steamstatic.com,DIRECT
+HOST-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
+HOST-SUFFIX,steamstat.us,DIRECT
+# >TaoBao
+HOST-SUFFIX,alicdn.com,DIRECT
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,alipay.com,DIRECT
 
+# > Tencent
+USER-AGENT,MicroMessenger%20Client,DIRECT
+USER-AGENT,WeChat*,DIRECT
+USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT
+USER-AGENT,TencentMidasConnect*,DIRECT
+HOST-SUFFIX,gtimg.com,DIRECT
+HOST-SUFFIX,idqqimg.com,DIRECT
+HOST-SUFFIX,igamecj.com,DIRECT
+HOST-SUFFIX,myapp.com,DIRECT
+HOST-SUFFIX,myqcloud.com,DIRECT
+HOST-SUFFIX,qq.com,DIRECT
+HOST-SUFFIX,servicewechat.com,DIRECT
+HOST-SUFFIX,tencent.com,DIRECT
+HOST-SUFFIX,tencent-cloud.net,DIRECT
+HOST-SUFFIX,tenpay.com,DIRECT
+HOST,file-igamecj.akamaized.net,DIRECT
+HOST-SUFFIX,mfm.video.qq.com,DIRECT
+HOST-SUFFIX,v.smtcdns.com,DIRECT
+HOST-SUFFIX,vv.video.qq.com,DIRECT
+
+# > IP Query
+HOST-SUFFIX,ipip.net,DIRECT
+HOST-SUFFIX,ip.la,DIRECT
+HOST-SUFFIX,ip-cdn.com,DIRECT
+HOST-SUFFIX,ipv6-test.com,DIRECT
+HOST-SUFFIX,test-ipv6.com,DIRECT
+HOST-SUFFIX,whatismyip.com,DIRECT
+# >ShunFeng
+HOST-SUFFIX,sf-airlines.com,DIRECT
+HOST-SUFFIX,sf-express.com,DIRECT
+HOST-SUFFIX,sfair.com,DIRECT
+# > Speed Test
+# HOST-SUFFIX,speedtest.net,DIRECT
+HOST-SUFFIX,netspeedtestmaster.com,DIRECT
+HOST,speedtest.macpaw.com,DIRECT
+# > Private USE
+HOST-SUFFIX,licdn.com,DIRECT
+HOST-SUFFIX,linkedin.com,DIRECT
+HOST-SUFFIX,loli.net,DIRECT
+HOST-SUFFIX,luojilab.com,DIRECT
+# > Scholar
+HOST-SUFFIX,acm.org,DIRECT
+HOST-SUFFIX,acs.org,DIRECT
+HOST-SUFFIX,aip.org,DIRECT
+HOST-SUFFIX,ams.org,DIRECT
+HOST-SUFFIX,annualreviews.org,DIRECT
+HOST-SUFFIX,aps.org,DIRECT
+HOST-SUFFIX,ascelibrary.org,DIRECT
+HOST-SUFFIX,asm.org,DIRECT
+HOST-SUFFIX,asme.org,DIRECT
+HOST-SUFFIX,astm.org,DIRECT
+HOST-SUFFIX,bmj.com,DIRECT
+HOST-SUFFIX,cambridge.org,DIRECT
+HOST-SUFFIX,cas.org,DIRECT
+HOST-SUFFIX,clarivate.com,DIRECT
+HOST-SUFFIX,ebscohost.com,DIRECT
+HOST-SUFFIX,emerald.com,DIRECT
+HOST-SUFFIX,engineeringvillage.com,DIRECT
+HOST-SUFFIX,icevirtuallibrary.com,DIRECT
+HOST-SUFFIX,ieee.org,DIRECT
+HOST-SUFFIX,imf.org,DIRECT
+HOST-SUFFIX,iop.org,DIRECT
+HOST-SUFFIX,jamanetwork.com,DIRECT
+HOST-SUFFIX,jhu.edu,DIRECT
+HOST-SUFFIX,jstor.org,DIRECT
+HOST-SUFFIX,karger.com,DIRECT
+HOST-SUFFIX,libguides.com,DIRECT
+HOST-SUFFIX,madsrevolution.net,DIRECT
+HOST-SUFFIX,mpg.de,DIRECT
+HOST-SUFFIX,myilibrary.com,DIRECT
+HOST-SUFFIX,nature.com,DIRECT
+HOST-SUFFIX,oecd-ilibrary.org,DIRECT
+HOST-SUFFIX,osapublishing.org,DIRECT
+HOST-SUFFIX,oup.com,DIRECT
+HOST-SUFFIX,ovid.com,DIRECT
+HOST-SUFFIX,oxfordartonline.com,DIRECT
+HOST-SUFFIX,oxfordbibliographies.com,DIRECT
+HOST-SUFFIX,oxfordmusiconline.com,DIRECT
+HOST-SUFFIX,pnas.org,DIRECT
+HOST-SUFFIX,proquest.com,DIRECT
+HOST-SUFFIX,rsc.org,DIRECT
+HOST-SUFFIX,sagepub.com,DIRECT
+HOST-SUFFIX,sciencedirect.com,DIRECT
+HOST-SUFFIX,sciencemag.org,DIRECT
+HOST-SUFFIX,scopus.com,DIRECT
+HOST-SUFFIX,siam.org,DIRECT
+HOST-SUFFIX,spiedigitallibrary.org,DIRECT
+HOST-SUFFIX,springer.com,DIRECT
+HOST-SUFFIX,springerlink.com,DIRECT
+HOST-SUFFIX,tandfonline.com,DIRECT
+HOST-SUFFIX,un.org,DIRECT
+HOST-SUFFIX,uni-bielefeld.de,DIRECT
+HOST-SUFFIX,webofknowledge.com,DIRECT
+HOST-SUFFIX,westlaw.com,DIRECT
+HOST-SUFFIX,wiley.com,DIRECT
+HOST-SUFFIX,worldbank.org,DIRECT
+HOST-SUFFIX,worldscientific.com,DIRECT
+# > WangYi
+HOST-SUFFIX,126.com,DIRECT
+HOST-SUFFIX,126.net,DIRECT
+HOST-SUFFIX,127.com,DIRECT
+HOST-SUFFIX,163.com,DIRECT
+HOST-SUFFIX,neteasegame.com,DIRECT
+HOST-SUFFIX,youdao.com,DIRECT
+HOST-SUFFIX,music.126.com,DIRECT
+HOST-SUFFIX,music.126.net,DIRECT
+HOST-SUFFIX,music.163.com,DIRECT
+HOST-SUFFIX,music.163.com.163jiasu.com,DIRECT
+HOST-KEYWORD,netease,DIRECT
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**,DIRECT
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90,DIRECT
+USER-AGENT,NeteaseMusic**,DIRECT
+USER-AGENT,NeteaseMusic*,DIRECT
+USER-AGENT,网易云音乐**,DIRECT
+USER-AGENT,网易云音乐*,DIRECT
+IP-CIDR,101.71.154.241/32,DIRECT
+IP-CIDR,103.126.92.13/32,DIRECT
+IP-CIDR,103.126.92.132/31,DIRECT
+IP-CIDR,112.13.119.17/32,DIRECT
+IP-CIDR,112.13.119.18/32,DIRECT
+IP-CIDR,112.13.122.1/32,DIRECT
+IP-CIDR,112.13.122.4/32,DIRECT
+IP-CIDR,115.236.112.0/20,DIRECT
+IP-CIDR,118.24.63.156/32,DIRECT
+IP-CIDR,182.92.170.253/32,DIRECT
+IP-CIDR,193.112.159.225/32,DIRECT
+IP-CIDR,223.252.192.0/19,DIRECT
+IP-CIDR,39.105.175.128/32,DIRECT
+IP-CIDR,39.105.63.80/32,DIRECT
+IP-CIDR,45.254.48.1/32,DIRECT
+IP-CIDR,47.100.127.239/32,DIRECT
+IP-CIDR,59.111.128.0/17,DIRECT
+IP-CIDR,59.111.21.14/31,DIRECT
+# > Xian Yu
+HOST-SUFFIX,xianyu.mobi,DIRECT
+# > Xiao MI 
+HOST-SUFFIX,xiaomi.com,DIRECT
+HOST-SUFFIX,duokan.com,DIRECT
+HOST-SUFFIX,mi.com,DIRECT
+HOST-SUFFIX,miui.com,DIRECT
+HOST-SUFFIX,xiaomiyoupin.com,DIRECT
+HOST-SUFFIX,mi-img.com,DIRECT
+HOST-SUFFIX,miwifi.com,DIRECT
+# >XieCheng
+HOST-SUFFIX,c-ctrip.com,DIRECT
+HOST-SUFFIX,ctrip.com,DIRECT
+HOST-SUFFIX,trip.com,DIRECT
+# >Xunlei
+HOST-SUFFIX,00cdn.com,DIRECT
+HOST-SUFFIX,88cdn.com,DIRECT
+HOST-SUFFIX,kanimg.com,DIRECT
+HOST-SUFFIX,kankan.com,DIRECT
+HOST-SUFFIX,p2cdn.com,DIRECT
+HOST-SUFFIX,sandai.net,DIRECT
+HOST-SUFFIX,thundercdn.com,DIRECT
+HOST-SUFFIX,xunlei.com,DIRECT
+# > Ximalaya
+HOST-SUFFIX,conchdate.com,DIRECT
+HOST-SUFFIX,himalaya.com,DIRECT
+HOST-SUFFIX,himalaya.cool,DIRECT
+HOST-SUFFIX,soundconch.com,DIRECT
+HOST-SUFFIX,xima.tv,DIRECT
+HOST-SUFFIX,ximalaya.com,DIRECT
+USER-AGENT,Himalaya*,DIRECT
+# > Xiaohongshu
+HOST-SUFFIX,pki.goog,DIRECT
+HOST-SUFFIX,xiaohongshu.com,DIRECT
+HOST-SUFFIX,xhscdn.com,DIRECT
+# > ZhangYue
+HOST-SUFFIX,corp3g.cn,DIRECT
+HOST-SUFFIX,ireader.com,DIRECT
+HOST-SUFFIX,ireader.com.cn,DIRECT
+HOST-SUFFIX,ireader.live,DIRECT
+HOST-SUFFIX,ireader.mobi,DIRECT
+HOST-SUFFIX,ireaderm.com,DIRECT
+HOST-SUFFIX,ireaderm.net,DIRECT
+HOST-SUFFIX,iremaker.com,DIRECT
+HOST-SUFFIX,mgcube.cn,DIRECT
+HOST-SUFFIX,palmebook.com,DIRECT
+HOST-SUFFIX,palmeread.cn,DIRECT
+HOST-SUFFIX,palmeread.com,DIRECT
+HOST-SUFFIX,palmestore.cn,DIRECT
+HOST-SUFFIX,palmestore.com,DIRECT
+HOST-SUFFIX,transmonkey.cn,DIRECT
+HOST-SUFFIX,transmonkey.com,DIRECT
+HOST-SUFFIX,transmonkey.net,DIRECT
+HOST-SUFFIX,z3.cn,DIRECT
+HOST-SUFFIX,zhangyue.com,DIRECT
+HOST-SUFFIX,zhangyue.net,DIRECT
+HOST-SUFFIX,zhangyue01.com,DIRECT
+HOST-SUFFIX,zhangyue02.com,DIRECT
+HOST-SUFFIX,zhangyue03.com,DIRECT
+HOST-SUFFIX,zhi3.com.cn,DIRECT
+HOST-SUFFIX,zhi3.net,DIRECT
+HOST-SUFFIX,zuoshujiang.com,DIRECT
+# DNSPod Public DNS+
+IP-CIDR,119.28.28.28/32,DIRECT
+# GeoIP China
 GEOIP,CN,DIRECT
