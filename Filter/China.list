@@ -261,6 +261,16 @@ USER-AGENT,MicroMessenger%20Client,DIRECT
 USER-AGENT,WeChat*,DIRECT
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT
 USER-AGENT,TencentMidasConnect*,DIRECT
+HOST-SUFFIX,qlogo.cn,DIRECT
+HOST-SUFFIX,qpic.cn,DIRECT
+HOST-SUFFIX,servicewechat.com,DIRECT
+HOST-SUFFIX,tenpay.com,DIRECT
+HOST-SUFFIX,wechat.com,DIRECT
+HOST-SUFFIX,wechatlegal.net,DIRECT
+HOST-SUFFIX,wechatpay.com,DIRECT
+HOST-SUFFIX,weixin.com,DIRECT
+HOST-SUFFIX,weixinbridge.com,DIRECT
+HOST-SUFFIX,weixinsxy.com,DIRECT
 HOST-SUFFIX,gtimg.com,DIRECT
 HOST-SUFFIX,idqqimg.com,DIRECT
 HOST-SUFFIX,igamecj.com,DIRECT
@@ -275,7 +285,15 @@ HOST,file-igamecj.akamaized.net,DIRECT
 HOST-SUFFIX,mfm.video.qq.com,DIRECT
 HOST-SUFFIX,v.smtcdns.com,DIRECT
 HOST-SUFFIX,vv.video.qq.com,DIRECT
-
+IP-CIDR,101.32.104.4/32,no-resolve
+IP-CIDR,101.32.104.41/32,no-resolve
+IP-CIDR,101.32.104.56/32,no-resolve
+IP-CIDR,101.32.118.25/32,no-resolve
+IP-CIDR,101.32.133.16/32,no-resolve
+IP-CIDR,101.32.133.53/32,no-resolve
+IP-CIDR,101.32.133.209/32,no-resolve
+IP-CIDR,129.226.3.47/32,no-resolve
+IP-CIDR,129.226.107.244/32,no-resolve
 # > IP Query
 HOST-SUFFIX,ipip.net,DIRECT
 HOST-SUFFIX,ip.la,DIRECT
