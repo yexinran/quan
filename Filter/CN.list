@@ -141,7 +141,6 @@ HOST-SUFFIX,gaode.com,DIRECT
 HOST-SUFFIX,gov.cn,DIRECT
 
 # >Goodnotes
-#HOST-SUFFIX,,DIRECT
 
 # >guojiafanzha
 HOST-SUFFIX,gjfzpt.cn,DIRECT
@@ -173,10 +172,8 @@ HOST-SUFFIX,meituan.net,DIRECT
 HOST-SUFFIX,sankuai.com,DIRECT
 
 # >miyoushe
-#HOST-SUFFIX,,DIRECT
 
 # >12315
-#HOST-SUFFIX,,DIRECT
 
 # >shanmu
 HOST-SUFFIX,jpush.cn,DIRECT
@@ -212,7 +209,7 @@ HOST-SUFFIX,sina.com,DIRECT
 HOST-SUFFIX,weibo.com,DIRECT
 
 # >weishufang
-HOST-SUFFIX,,DIRECT
+HOST-SUFFIX,chineseall.cn,DIRECT
 
 # >wps
 HOST-SUFFIX,wpscdn.cn,DIRECT
@@ -222,23 +219,14 @@ HOST-SUFFIX,ksyun.com,DIRECT
 HOST-SUFFIX,wps.cn,DIRECT
 
 # >xiaoheihe
-#HOST-SUFFIX,,DIRECT
 
 # >xiaohongshu
 HOST-SUFFIX,pki.goog,DIRECT
 HOST-SUFFIX,xiaohongshu.com,DIRECT
 HOST-SUFFIX,xhscdn.com,DIRECT
 
-# >xiaomichuandai
-HOST-SUFFIX,,DIRECT
 
-# >xiaomiWifi
-HOST-SUFFIX,,DIRECT
-
-# >XiongMaoChiDuanXin
-HOST-SUFFIX,,DIRECT
-
-# > Xiao MI 
+# > XiaoMI系
 HOST-SUFFIX,xiaomi.com,DIRECT
 HOST-SUFFIX,duokan.com,DIRECT
 HOST-SUFFIX,mi.com,DIRECT
