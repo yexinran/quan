@@ -1,24 +1,43 @@
 # > Apple
-DOMAIN-SUFFIX,aaplimg.com,DIRECT
-DOMAIN-SUFFIX,apple.co,DIRECT
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,apple.com.cn,DIRECT
-DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-DOMAIN-SUFFIX,apple-livephotoskit.com,DIRECT
-DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
-DOMAIN-SUFFIX,applemusic.com,DIRECT
-DOMAIN-SUFFIX,appstore.com,DIRECT
-DOMAIN-SUFFIX,apzones.com,DIRECT
-DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,icloud.com.cn,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
-DOMAIN-SUFFIX,me.com,DIRECT
-DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN-KEYWORD,apple.com.akadns.net,DIRECT
-DOMAIN-KEYWORD,apple.com.edgekey.net,DIRECT
-DOMAIN-KEYWORD,apple-support.akadns.net,DIRECT
-DOMAIN-KEYWORD,icloud.com.akadns.net,DIRECT
+# > 苹果推送服务
+host-keyword, push.apple.com, direct
+# > 苹果时间同步
+host, time.apple.com, direct
+# > 苹果天气服务
+host-keyword, weather-adge.apple.com, direct
+# > 苹果内购服务
+host-keyword, buy.itunes.apple.com, direct
+# > 苹果icloud
+host-keyword, icloud.com, direct
+# > 苹果输入法相关服务
+host-keyword, api.smoot.apple.com, direct
+host-keyword, api.smoot.apple.cn, direct
+# > 苹果iMessage服务
+host, init.ess.apple.com, direct
+# > 苹果其他服务
+host, smp-device-content.apple.com, direct
+host-keyword, api-adservices.apple.com, direct
+host-keyword, ls.apple.com, direct
+host-keyword, gsa.apple.com, direct
+host-keyword, ess.apple.com, direct
+host-SUFFIX,aaplimg.com,DIRECT
+host-SUFFIX,apple.co,DIRECT
+host-SUFFIX,apple.com,DIRECT
+host-SUFFIX,apple.com.cn,DIRECT
+host-SUFFIX,apple-cloudkit.com,DIRECT
+host-SUFFIX,apple-livephotoskit.com,DIRECT
+host-SUFFIX,apple-mapkit.com,DIRECT
+host-SUFFIX,applemusic.com,DIRECT
+host-SUFFIX,appstore.com,DIRECT
+host-SUFFIX,apzones.com,DIRECT
+host-SUFFIX,cdn-apple.com,DIRECT
+host-SUFFIX,icloud-content.com,DIRECT
+host-SUFFIX,me.com,DIRECT
+host-SUFFIX,mzstatic.com,DIRECT
+host-KEYWORD,apple.com.akadns.net,DIRECT
+host-KEYWORD,apple.com.edgekey.net,DIRECT
+host-KEYWORD,apple-support.akadns.net,DIRECT
+host-KEYWORD,icloud.com.akadns.net,DIRECT
 
 # > cdn jiasu
 HOST-SUFFIX,alicdn.com,DIRECT
