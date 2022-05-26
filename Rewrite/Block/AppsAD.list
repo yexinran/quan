@@ -3,3 +3,8 @@ HOST-SUFFIX,web.business.image,REJECT
 HOST-SUFFIX,admobile.top,REJECT
 HOST-SUFFIX,ads.service.kugou.com,REJECT
 HOST-SUFFIX,ad.12306.cn,REJECT
+HOST-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+HOST-SUFFIX,api-access.pangolin-sdk-toutiao.com,REJECT
+HOST-SUFFIX,pgdt.ugdtimg.com,REJECT
+HOST-SUFFIX,ad.union.api,REJECT
+
