@@ -2,3 +2,4 @@ HOST-SUFFIX,img/ad.union.api,REJECT
 HOST-SUFFIX,web.business.image,REJECT
 HOST-SUFFIX,admobile.top,REJECT
 HOST-SUFFIX,ads.service.kugou.com,REJECT
+HOST-SUFFIX,ad.12306.cn,REJECT
