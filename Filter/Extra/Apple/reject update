@@ -1,6 +1,5 @@
 HOST-SUFFIX,gdmf.apple.com,REJECT
 HOST-SUFFIX,mesu.apple.com,REJECT
-HOST-SUFFIX,gdmf.apple.com,REJECT
 HOST-SUFFIX,updates-http.cdn-apple.com,REJECT
 HOST-SUFFIX,xp.apple.com,REJECT
 
