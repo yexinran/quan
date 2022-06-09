@@ -182,6 +182,7 @@ HOST-SUFFIX,umeng.com,DIRECT
 
 # >kugou
 HOST-SUFFIX,kugou.com,DIRECT
+HOST-SUFFIX,ads.service.kugou.com,REJECT
 
 # >meituan
 HOST-SUFFIX,meituan.com,DIRECT
@@ -209,6 +210,7 @@ HOST-SUFFIX,mobile.12306.cn,DIRECT
 HOST-SUFFIX,link.12306.cn,DIRECT
 HOST-SUFFIX,push.12306.cn,DIRECT
 HOST-SUFFIX,exservice.12306.cn,DIRECT
+HOST-SUFFIX,ad.12306.cn,REJECT
 
 # >wangyi系
 HOST-SUFFIX,126.com,DIRECT
